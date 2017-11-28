@@ -14,10 +14,10 @@
     if (!e) {
       html = '비밀번호는 8자 이상 입력해주세요.';
     } else {
-      html = '안전한 비밀번호입니다.'
+      html = '안전한 비밀번호입니다.';
     }
     document.getElementsByClassName('pw-message')[0].innerHTML = html;
-  }
+  };
 
   const checkPw = function (e) {
     if (e.target.value.length > 7) {
